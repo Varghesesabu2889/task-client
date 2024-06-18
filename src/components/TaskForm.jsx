@@ -58,7 +58,7 @@ const TaskForm = ({ fetchTasks, selectedTask, setSelectedTask }) => {
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          className="w-full px-4 py-2 border text-gray-600 rounded focus:outline-none focus:border-blue-500"
+          className="w-full px-4 py-2 border text-gray-600 rounded focus:outline-none focus:border-blue-500 resize-none"
           required
         ></textarea>
       </div>
